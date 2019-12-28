@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px; 
+    background:#e5eff5;
+}
+
+.header {
+    text-align: left;
+    margin: 100px 100px 50px 100px;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%) 
+   
+}
+
+h3 {
+    color: hsl(71, 73%, 54%)
+}
+
+.access {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 18px;
+}
+
+#ad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 300px;
+    width: 90%;
+    color: white;
+    
+   
+}
+
+.subscription {
+    margin: 0;
+    padding: 20px 0 45px 50px;
+    width: 35%;
+    background-color:  #2ab2af;;
+    border-bottom-left-radius: 10px;
+    font-size: 16px;
+}
+
+span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+sup {
+    font-size: 20px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+
+}
+
+.cost {
+    font-size: 18px;
+}
+
+.about {
+    width: 35%;
+    padding: 20px 20px 45px 50px;
+    background-color: hsl(179, 46%, 50%);
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    
+}
+
+
+.btn {
+    width: 280px;
+    height: 60px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    transition: all ease 300ms;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+   
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    #ad{
+        display:flex;
+        flex-direction:column;
+    }
+    .subscription{
+        width:90%;
+        margin: 350px 20px 0 20px;
+    }
+    .about{
+        width:86%;
+        margin: 0 40px 60px 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    footer{
+        margin-top: 350px;
+    }
+}
+    
